@@ -106,27 +106,27 @@ class local_questionfinder_question_bank_search_condition  extends core_question
 
         echo html_writer::empty_tag('input', array(
             'type' => 'checkbox', 'name' => 'searchauthor', 'id' => 'searchauthor',
-            'class' => 'searchoptions', 'value' => 1
+            'class' => 'searchoptions mr-1', 'value' => 1
         ));
         echo html_writer::label($strauthor, 'searchauthor');
         echo "<br />\n";
 
         echo html_writer::empty_tag('input', array(
             'type' => 'checkbox', 'name' => 'searchanswers', 'id' => 'searchanswers',
-            'class' => 'searchoptions', 'value' => 1
+            'class' => 'searchoptions mr-1', 'value' => 1
         ));
         echo html_writer::label($strquestiontext, 'searchanswers');
         echo "<br />\n";
 
         echo html_writer::empty_tag('input', array(
             'type' => 'checkbox', 'name' => 'searchmodified', 'id' => 'searchmodified',
-            'class' => 'searchoptions', 'value' => 1
+            'class' => 'searchoptions mr-1', 'value' => 1
         ));
         echo html_writer::label($strlastmodifiedby, 'searchmodified');
         echo "\n";
         echo html_writer::empty_tag('input', array(
             'type' => 'checkbox', 'name' => 'blockcategory', 'id' => 'blockcategory',
-            'class' => 'searchoptions', 'hidden' => true, 'value' => 1
+            'class' => 'searchoptions mr-1', 'hidden' => true, 'value' => 1
         ));
         echo "<hr />\n";
 
